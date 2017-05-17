@@ -29,4 +29,4 @@ Follow every step of these instructions carefully, and avoid submitting this ass
 
 ### When to Submit
 
-This assignment is **due by 11:59 PM on Monday, 22 May 2017.**
+This assignment is __due by 11:59 PM on Monday, 22 May 2017.__ **No late work will be accepted**, and this repository will be closed at 12:00 AM on Tuesday, 23 May 2017.
