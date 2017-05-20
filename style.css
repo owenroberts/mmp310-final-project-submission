@@ -25,6 +25,7 @@ body {
 }
 
 #nav-div {
+    height: calc(100vh - 100px);
     width: 30%;
     background-color: #444;
     display: inline-block;
