@@ -26,7 +26,7 @@ body {
 #nav-div {
     width: 30%;
     background-color: #444;
-    float: left;
+    display: inline-block;
 }
 
 #nav-div ul li {
@@ -42,6 +42,10 @@ body {
     padding-left: 40px;
     color: black;
     background-color: #FFCC00;
+}
+
+#page-content {
+    display: inline-block;
 }
 
 #generator {
