@@ -27,7 +27,7 @@ body {
 #nav-div {
     height: calc(100vh - 100px);
     width: 30%;
-    border-right: solid 10px #FFCC00;
+    border-right: solid 15px #FFCC00;
     background-color: #444;
     display: inline-block;
     box-sizing: border-box;
