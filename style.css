@@ -43,3 +43,9 @@ body {
     color: black;
     background-color: #FFCC00;
 }
+
+#generator {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #444;
+}
