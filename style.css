@@ -17,6 +17,10 @@ body {
     background-color: #FFCC00;
 }
 
+#nav-toggle {
+    float: left;
+}
+
 #nav-div {
     width: 30%;
     background-color: #444;
