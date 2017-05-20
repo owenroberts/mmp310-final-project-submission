@@ -35,8 +35,7 @@ body {
 
 #nav-div ul li {
     padding: 20px;
-    border-top: solid 1px #222;
-    border-bottom: solid 1px #222;
+    border-bottom: solid 2px #222;
     color: white;
     transition: background-color .25s;
     transition: padding .25s;
