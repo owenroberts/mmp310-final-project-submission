@@ -4,3 +4,10 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+#top-bar {
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFCC00;
+}
