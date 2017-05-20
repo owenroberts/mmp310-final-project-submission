@@ -20,7 +20,8 @@ body {
 #nav-toggle {
     margin: 30px;
     padding: 10px;
-    float: left;
+    position: absolute;
+    left: 0;
 }
 
 #nav-div {
