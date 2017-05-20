@@ -16,3 +16,8 @@ body {
     text-align: center;
     background-color: #FFCC00;
 }
+
+#nav-div {
+    width: 50%;
+    background-color: #444;
+}
