@@ -55,5 +55,7 @@ body {
 #generator {
     width: 50%;
     margin: 0 auto;
+    border: solid 5px black;
+    border-radius: 20px;
     background-color: #444;
 }
