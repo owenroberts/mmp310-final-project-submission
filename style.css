@@ -5,9 +5,14 @@
     text-decoration: none;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 #top-bar {
     line-height: 100px;
     width: 100%;
+    font-size: 30px;
     text-align: center;
     background-color: #FFCC00;
 }
