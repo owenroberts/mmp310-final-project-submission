@@ -22,3 +22,11 @@ function toggleNavMenu() {
 
 var generator = document.getElementById('generator'),
     genLinks = generator.getElementsByTagName('li');
+
+genLinks[0].addEventListener('click', generateNav);
+
+function generateNav() {
+    this.parentNode.removeChild(this);
+    
+    navDiv.style.display = 'inherit';
+}
