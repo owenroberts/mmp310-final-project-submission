@@ -5,6 +5,16 @@
     text-decoration: none;
 }
 
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
 body {
     font-family: sans-serif;
 }
@@ -25,13 +35,14 @@ body {
 }
 
 #nav-div {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     width: 25%;
     border-right: solid 15px #FFCC00;
     background-color: #444;
     display: inline-block;
     box-sizing: border-box;
     float: left;
+    position: absolute;
     transition: margin-left .5s;
 }
 
@@ -49,18 +60,23 @@ body {
     background-color: #FFCC00;
 }
 
+#nav-div ul li:active {
+    color: white;
+}
+
 #page-content {
     padding-left: 20px;
     padding-top: 20px;
-    display: inline-block;
 }
 
 #generator {
+    margin: 0 auto;
     width: 300px;
     margin-bottom:20px;
     border: solid 5px #DDAA00;
     border-radius: 20px;
     background-color: #FFCC00;
+    overflow: hidden;
 }
 
 #generator li {
@@ -70,13 +86,8 @@ body {
     transition: padding-left .25s;
 }
 
-#generator li:first-child {
-    border-radius: 20px 20px 0 0;
-}
-
 #generator li:last-child {
     border-bottom: none;
-    border-radius: 0 0 20px 20px;
 }
 
 #generator li:hover {
@@ -85,14 +96,31 @@ body {
     background-color: #444;
 }
 
-#color-switcher ul li h4 {
-    margin-right: 20px;
-    float: left;
+#color-switcher {
+    width: 100%;
+    text-align: center;
+}
+
+#color-switch ul {
+    margin: 0 auto;
+}
+
+#color-switcher li {
+    margin: 10px 0;
+}
+
+#color-swticher h4 {
+    display: inline !important;
+}
+
+#color-switcher input {
+    display: inline-block;
 }
 
 footer {
     line-height: 100px;
     width: 100vw;
+    border-top: solid 10px #FFCC00;
     color: white;
     background-color: black;
     text-align: center;
@@ -104,4 +132,43 @@ footer {
 #greeting {
     padding-bottom: 20px;
     text-align: center;
+}
+
+#flipacoin {
+    width: 100%;
+}
+
+#coin-flip {
+    width: 200px;
+    margin: 50px auto 0 auto;
+    margin-top: 50px;
+    padding: 90px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #FFCC00;
+    background-color: #333;
+    text-align: center;
+    transition: .25s;
+}
+
+#coin-flip:hover {
+    margin-top: 30px;
+    padding: 110px 20px;
+    color: black;
+    background-color: #FFCC00;
+}
+
+#coin-flip:active {
+    color: #FFCC00;
+    background-color: black;
+    transition: 0;
+}
+
+#coin {
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10%;
+    top: 40%;
 }

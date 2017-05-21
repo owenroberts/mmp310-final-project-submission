@@ -10,6 +10,9 @@ colorSwitcher.style.display = 'none';
 footer.style.display = 'none';
 
 var userName = prompt("What is your name?");
+if (!userName) {
+    userName = "friend";
+}
 
 greeting.innerHTML = 'Hello, ' + userName + '!';
 
@@ -50,15 +53,45 @@ genLinks[2].addEventListener('click', generateFooter);
 function generateFooter() {
     this.parentNode.removeChild(this);
     
+    if (genLinks.length == 0) {
+        generator.parentNode.removeChild(generator);
+    }
+    
     footer.style.display = 'inherit';
 }
 
-var colorSetter = document.getElementById('color-setter'),
-    colorSliders = colorSwitcher.getElementsByTagName('input'),
+var colorSliders = colorSwitcher.querySelectorAll('#color-switcher input'),
     body = document.getElementsByTagName('body')[0];
 
-colorSetter.addEventListener('click', setBackgroundColor);
+for (var i=0; i < colorSliders.length; i++) {
+    colorSliders[i].addEventListener('change', setBackgroundColor);
+}
 
 function setBackgroundColor() {
-    body.style.background = 'rgba(' + colorSliders[0].value + ',' + colorSliders[1].value + ',' + colorSliders[2].value + ',1)';
+    body.style.background = 'rgb(' + colorSliders[0].value + ',' + colorSliders[1].value + ',' + colorSliders[2].value + ')';
+}
+
+var coinButton = document.getElementById('coin-flip'),
+    coin = document.getElementById('coin');
+
+coinButton.addEventListener('click', flipCoin);
+
+function flipCoin() {
+    var result = Math.floor(Math.random() * 10) + 1;
+    
+    coin.style.backgroundImage = 'url("coin.jpg")';
+    
+    if (result <= 5) {
+        showHeads();
+    } else {
+        showTails();
+    }
+    
+    function showHeads() {
+        coin.style.backgroundPosition = '100% 0';
+    }
+    
+    function showTails() {
+        coin.style.backgroundPosition = '0';
+    }
 }
