@@ -30,3 +30,11 @@ function generateNav() {
     
     navDiv.style.display = 'inherit';
 }
+
+genLinks[1].addEventListener('click', generateColorSwitcher);
+
+function generateColorSwitcher() {
+    this.parentNode.removeChild(this);
+    
+    colorSwitcher.style.display = 'inherit';
+}
