@@ -25,7 +25,7 @@ body {
 }
 
 #nav-div {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 200px);
     width: 25%;
     border-right: solid 15px #FFCC00;
     background-color: #444;
