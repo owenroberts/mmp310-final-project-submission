@@ -1,5 +1,8 @@
 var userName = 'Tahsin',
-    greeting = document.getElementById('greeting');
+    greeting = document.getElementById('greeting'),
+    navDiv = document.getElementById('nav-div'),
+    colorSwitcher = document.getElementById('color-switcher'),
+    footer = document.getElementsByTagName('footer')[0];
 
 greeting.innerHTML = 'Hello, ' + userName + '!';
 
@@ -7,9 +10,7 @@ var navToggle = document.getElementById('nav-toggle');
 
 navToggle.addEventListener('click', toggleNavMenu);
 
-function toggleNavMenu() {
-    var navDiv = document.getElementById('nav-div');
-    
+function toggleNavMenu() {    
     if (navDiv.style.marginLeft != '-25%') {
         navToggle.innerHTML = 'OPEN MENU'
         navDiv.style.marginLeft = '-25%';
@@ -24,8 +25,4 @@ var generator = document.getElementById('generator'),
 
 for (var i=0; i < generatorLinks.length; i++) {
     generatorLinks[i].addEventListener('click', generateItem);
-    
-    function generateItem() {
-        
-    }
 }
