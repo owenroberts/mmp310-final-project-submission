@@ -55,8 +55,7 @@ body {
 }
 
 #generator {
-    width: 100%;
-    max-width: 500px;
+    width: 300px;
     margin-bottom:20px;
     border: solid 5px #DDAA00;
     border-radius: 20px;
