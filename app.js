@@ -11,8 +11,10 @@ function toggleNavMenu() {
     var navDiv = document.getElementById('nav-div');
     
     if (navDiv.style.marginLeft != '-25%') {
+        navToggle.innerHTML = 'OPEN MENU'
         navDiv.style.marginLeft = '-25%';
     } else {
+        navToggle.innerHTML = 'CLOSE MENU'
         navDiv.style.marginLeft = '0';
     }
 }
