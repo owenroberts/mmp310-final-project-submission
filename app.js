@@ -23,5 +23,9 @@ var generator = document.getElementById('generator'),
     generatorLinks = generator.getElementsByTagName('li');
 
 for (var i=0; i < generatorLinks.length; i++) {
+    generatorLinks[i].addEventListener('click', generateItem);
     
+    function generateItem() {
+        
+    }
 }
