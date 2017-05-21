@@ -18,3 +18,6 @@ function toggleNavMenu() {
         navDiv.style.marginLeft = '0';
     }
 }
+
+var generator = document.getElementById('generator'),
+    generatorLinks = generator.getElementsByTagName('li');
