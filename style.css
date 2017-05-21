@@ -99,3 +99,8 @@ footer {
     left: 0;
     bottom: 0;
 }
+
+#greeting {
+    padding-bottom: 20px;
+    text-align: center;
+}
