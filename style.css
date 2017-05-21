@@ -50,17 +50,37 @@ body {
 
 #page-content {
     padding-left: 20px;
+    padding-top: 20px;
     display: inline-block;
 }
 
 #generator {
-    width: 50%;
+    width: 100%;
+    max-width: 500px;
     margin: 0 auto;
-    border: solid 5px black;
+    border: solid 5px #DDAA00;
     border-radius: 20px;
-    background-color: #444;
+    background-color: #FFCC00;
 }
 
 #generator li {
     padding: 10px;
+    border-bottom: solid 2px #DDAA00;
+    transition: background-color .25s;
+    transition: padding-left .25s;
+}
+
+#generator li:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+#generator li:last-child {
+    border-bottom: none;
+    border-radius: 0 0 20px 20px;
+}
+
+#generator li:hover {
+    padding-left: 20px;
+    color: white;
+    background-color: #444;
 }
