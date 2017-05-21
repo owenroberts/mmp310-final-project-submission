@@ -21,4 +21,4 @@ function toggleNavMenu() {
 }
 
 var generator = document.getElementById('generator'),
-    generatorLinks = generator.getElementsByTagName('li');
+    genLinks = generator.getElementsByTagName('li');
