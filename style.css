@@ -84,3 +84,8 @@ body {
     color: white;
     background-color: #444;
 }
+
+#color-switcher ul li h4 {
+    margin-right: 20px;
+    float: left;
+}
