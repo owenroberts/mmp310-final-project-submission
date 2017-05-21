@@ -52,3 +52,6 @@ function generateFooter() {
     
     footer.style.display = 'inherit';
 }
+
+var colorSetter = document.getElementById('color-setter'),
+    colorSliders = colorSwitcher.getElementsByTagName('input');
