@@ -54,4 +54,11 @@ function generateFooter() {
 }
 
 var colorSetter = document.getElementById('color-setter'),
-    colorSliders = colorSwitcher.getElementsByTagName('input');
+    colorSliders = colorSwitcher.getElementsByTagName('input'),
+    body = document.getElementsByTagName('body')[0];
+
+colorSetter.addEventListener('click', setBackgroundColor);
+
+function setBackgroundColor() {
+    body.style.background = 'rgba(' + colorSliders[0].value + ',' + colorSliders[1].value + ',' + colorSliders[2].value + ',1)';
+}
