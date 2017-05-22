@@ -1,0 +1,1 @@
+function newPicture(){document.getElementById("GreyUnicorn").src="images/unicorn.png"}function oldPicture(){document.getElementById("GreyUnicorn").src="images/unicorn-grey.png"}$(function(){setTimeout(function(){"use strict";$(".fly-text").removeClass("hidden")},500)})();
