@@ -1,0 +1,112 @@
+body, #userEntry {
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+body p {
+  font-size: 16px;
+}
+
+#heading {
+  text-align: center;
+}
+
+#quizInfo {
+  margin-left: 20px;
+}
+
+#quiz {
+  background: #f9f9f9;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  display: block;
+  float: left;
+  width: 40%;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+#userEntry {
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+#entryBtn {
+  background: lightgray;
+  color: black;
+  font-family: 'Slabo 27px', serif;
+  border: none;
+}
+
+#quizBtn {
+  background: blue;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 15px;
+  margin-right: 15px;
+  border: none;
+  transition-duration: .5s;
+}
+
+#resetBtn {
+  background: darkred;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 15px;
+  margin-right: 15px;
+  border: none;
+  transition-duration: .5s;
+}
+
+#nextBtn {
+  background: darkgreen;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 15px;
+  margin-right: 15px;
+  border: none;
+  transition-duration: .5s;
+}
+
+#entryBtn:hover, #quizBtn:hover, #resetBtn:hover, #nextBtn:hover {
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+#quizBtn:active, #resetBtn:active, #nextBtn:active {
+  background: gold;
+  border: none;
+}
+
+#results {
+  visibility: hidden;
+  background: #f9f9f9;
+  padding: 10px 20px 10px 20px;
+  margin-left: 50px;
+  display: block;
+  width: 40%;
+  height: 375px;
+  float: left;
+  font-size: 30px;
+}
+
+#results p {
+  font-size: 22px;
+}
+
+#picture img {
+  height: 75%;
+  display: block;
+  margin: auto;
+}
