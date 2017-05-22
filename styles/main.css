@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin|VT323|Ranchers");
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption,
+cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption,
+figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins,
+kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby,
+section, samp, small, span, strong, sub, summary, sup, table, tbody, td, tfoot,
+th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #4bc6fe;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  margin: 10px;
+  font-family: 'VT323', monospace;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 10px;
+  font-family: 'Ranchers', cursive;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  padding: .5em;
+  font-size: 32px;
+  margin: 10px;
+  font-family: 'Ranchers', cursive;
+}
+
+body .start-button {
+  display: block;
+  margin: 0 auto;
+}
+
+body .start-button span {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 3em;
+  border: 2px solid #FE8B05;
+  cursor: pointer;
+}
+
+body .back-button span {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+  padding: 1rem;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 3em;
+  border: 2px solid #2B4E72;
+  cursor: pointer;
+}
+
+body .try-again {
+  display: block;
+  margin: 0 auto;
+}
+
+body .buttons {
+  display: inline-block;
+  width: 100%;
+}
+
+body .buttons #head-button {
+  float: left;
+  margin: 1rem;
+  width: 40%;
+}
+
+body .buttons #head-button button {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  height: 35%;
+}
+
+body .buttons #tail-button {
+  float: right;
+  margin: 1rem;
+  width: 40%;
+}
+
+body .buttons #tail-button button {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  height: 35%;
+}
+
+body .flip-menu {
+  display: none;
+  text-align: center;
+  background-color: #A9DA88;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+body .flip-menu #flip-button {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 3em;
+  border: 2px solid #FE8B05;
+  cursor: pointer;
+}
+
+body .flip-menu .head-count h1 {
+  color: #FE8B05;
+}
+
+body .flip-menu .tail-count h1 {
+  color: #FE8B05;
+}
+
+body .results {
+  display: block;
+  margin: 1em auto;
+  background-color: #000000;
+}
+
+nav {
+  background-color: #2B4E72;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  height: 12px;
+  line-height: 10px;
+}
+
+nav ul li a {
+  color: #FE8B05;
+}
+
+nav ul li ul {
+  visibility: hidden;
+  display: none;
+}
+
+nav ul li ul a {
+  color: inherit;
+}
+
+nav ul li ul li a {
+  display: inline-block;
+}
+
+nav ul li:hover {
+  background-color: #0AABBA;
+  color: #72243D;
+}
+
+nav ul li:hover a {
+  color: inherit;
+}
+
+nav ul li:hover ul {
+  visibility: visible;
+  display: block;
+}
+
+nav ul li:hover ul li {
+  background-color: #0AABBA;
+  position: absolute;
+}
+
+nav ul li:hover ul li:hover {
+  background-color: #077f8a;
+  color: #FE8B05;
+}
+
+#accordion {
+  padding: 10px;
+}
+
+#accordion h2 {
+  text-align: center;
+  background-color: #94BA65;
+  padding: 1rem;
+  width: 75%;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+
+#accordion h2:hover {
+  color: #fff;
+  background-color: #608039;
+  cursor: pointer;
+}
+
+#accordion h2:active {
+  background-color: #71c03c;
+}
+
+#accordion ul {
+  margin: 1rem;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#accordion ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 6.6666666667px;
+  background-color: #F0FFC9;
+}
+
+#accordion div {
+  display: none;
+  background-color: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.welcome-screen {
+  display: block;
+}
+
+.welcome-screen #coin img {
+  display: block;
+  margin: auto;
+  width: 35%;
+  height: 35%;
+}
+
+.welcome-screen h1 {
+  font-size: 3em;
+}
+
+.game-screen {
+  display: none;
+}
+
+.game-screen #head-coin {
+  display: inline-block;
+  float: left;
+  padding: 1em;
+  width: 40%;
+  height: 50%;
+}
+
+.game-screen #head-coin img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  height: 35%;
+}
+
+.game-screen #tail-coin {
+  display: inline-block;
+  float: right;
+  padding: 1em;
+  width: 40%;
+  height: 50%;
+}
+
+.game-screen #tail-coin img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  height: 35%;
+}
+
+.game-screen .coin-animation {
+  background-color: #000000;
+  border-radius: 3em;
+  margin: 1rem;
+}
+
+.game-screen .coin-animation img {
+  display: block;
+  margin: .5rem auto;
+  padding: .5rem;
+  width: 40%;
+  height: 40%;
+}
+
+.end-screen {
+  display: none;
+}

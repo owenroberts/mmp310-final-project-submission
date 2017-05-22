@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MMP310-Final: Coin Toss Game by Steven Taveras</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav></nav>
+        </header>
+        <div class="welcome-screen">
+            <h1>Welcome To Coin-Toss</h1>
+            <div id="coin">
+            </div>
+            <div id="accordion">
+                <h2>The rules of the game</h2>
+                <div>
+                    <ul>
+                        <li>Rule 1: Enter a username.</li>
+                        <li>Rule 2: select the side of the coin you want to use. </li>
+                        <li>Rule 3: Press the flip button to flip the coin</li>
+                        <li>Rule 4: Repeat as often as you would like</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="start-button">
+                <p><span>Press to Play</span></p>
+            </div>
+
+        </div>
+        <div class="game-screen">
+            <div id="username-prompt"></div>
+            <h1>Choose your side of the coin</h1>
+            <div class="container">
+                <div id="head-coin">
+                </div>
+                <div id="tail-coin">
+                </div>
+                <div class="container buttons">
+                    <button id="head-button">head</button>
+                    <button id="tail-button">Tails</button>
+                </div>
+                <div class="container flip-menu">
+
+                    <div class="coin-animation"></div>
+                    <div id="flip-button">
+                        <p>Flip the Switch</p>
+                    </div>
+                    <div class="results"></div>
+                    <div id="heads-count" class="head-count">
+                    </div>
+                    <div id="tails-count" class="tail-count">
+                    </div>
+                </div>
+                <div class="back-button">
+                    <p><span>Back to Start Page</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="end-screen">
+            <div class="you-win">
+                <p>YOU WIN!!!!</p>
+            </div>
+            <div class="you-lose">
+                <p>YOU LOSE!!!!</p>
+            </div>
+            <div class="try-again">
+                <p><span>Please Try Again</span></p>
+            </div>
+        </div>
+        <footer>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </footer>
+    </div>
+
+    <script src="scripts/app.js" defer></script>
+</body>
+
+</html>
