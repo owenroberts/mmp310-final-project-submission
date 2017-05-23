@@ -1,0 +1,200 @@
+/* ===============
+   Global Styles
+   =============== */
+
+body {
+  color: #999;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+img {
+  max-width: 100%;
+
+}
+
+p {
+  color: #000;
+  font-size: 50px;
+}
+
+button {
+  font-size: 80px;
+  color: #fff;
+  background: #ffdd99;;
+  border: none;
+}
+
+h2 {
+  color: #333;
+
+}
+
+/* ===============
+   Home Page Styles
+   =============== */
+
+.home {
+  text-align: center;
+  padding: 200px 0;
+}
+
+#title {
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+
+/* ===============
+   Logo and Navigation Styles
+   =============== */
+
+
+.navigation {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+#logo {
+  color: #333;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bolder;
+  text-align: left;
+  /*padding: 50px 0;*/
+  display: inline-block;
+  transition: .2s;
+}
+
+#logo:hover {
+  color: #efe6d3;
+
+}
+
+/* ===============
+  Video Page Styles
+   =============== */
+
+div#player {
+  margin: 0 auto;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.videos {
+  margin: 100px 0;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* ===============
+  Photos Page Styles
+   =============== */
+
+.gallery img {
+  padding: 15px 0;
+}
+
+
+.glyphicon {
+  font-size: 90px;
+  top: 10px;
+  color: #abc6b5;
+  transition: .25s;
+}
+
+.h1 h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #f2f2f2;
+  clear: right; }
+
+li {
+  color: #999;
+  list-style: none;
+  line-height: 80%;
+  letter-spacing: 2px;
+  font-weight: light; }
+
+
+article {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  color: #999;
+  text-indent: 50px; }
+
+aside {
+  float: right;
+  display: inline;
+  padding: 20px; }
+
+
+#videos {
+  text-align: center; }
+
+#home {
+  text-align: right; }
+
+.fa {
+  color: #a94442;
+  transition: 0.25s;
+  padding: 10px;
+  height: 150px;
+  /* red */ }
+
+.fa-address-card-o {
+  color: #093253;
+  color: #abc6b5; }
+
+.fa-camera-retro {
+  color: #fec573; }
+
+.fa-pencil-square-o {
+  color: #093253; }
+
+#resume {
+  margin-top: 100px;
+  text-align: center; }
+
+.fa:hover {
+  color: #efe6d3; }
+
+#chriscel b:hover {
+  color: #efe6d3; }
+
+img:hover {
+  color: #efe6d3; }
+
+.material-icons {
+  color: #000;
+  font-size: 10px; }
+
+footer {
+  font-size: 14px;
+  color: #999;
+  font-weight: lighter;
+  text-align: center;
+  padding: 100px;
+  margin-top: 100px;
+  letter-spacing: 2px;
+  background: #eee;
+  clear: both;
+  position: static; }
+
+  @media screen and (min-width: 768px) {
+    #logo {
+      font-size: 2em;
+    }
+  }
