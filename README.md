@@ -1,32 +1,27 @@
-# Final Project — Submission
-## Borough of Manhattan Community College (BMCC)
-## Multimedia Programming (MMP310)
-## Spring 2017
+# [Start Bootstrap](http://startbootstrap.com/) - [Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/)
 
-### How to Submit
+[Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/) is an unstyled one page starter template with a collapsing, smooth scrolling navigation bar for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-Follow every step of these instructions carefully, and avoid submitting this assignment in haste or with distractions around you, as these will no doubt hinder your ability to submit successfully.
+## Getting Started
 
-**Note**: Make sure you have the [GitHub Desktop client](https://desktop.github.com) installed.
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/scrolling-nav/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-scrolling-nav.git`
+* Fork the repo
 
-**Burden**: ~30 minutes
+## Bugs and Issues
 
-1. Log in to [GitHub](https://github.com/login).
-2. Visit this repo’s [GitHub site](https://github.com/code-warrior/mmp310-final-project-submission).
-3. Fork the `mmp310-final-project-submission` repo by clicking the `fork` icon at the top, along the right.
-4. The URL should now look like `github.com/YOUR-GIHUB-USERNAME/mmp310-final-project-submission`. (It was `github.com/code-warrior/mmp310-final-project-submission` before you forked it.)
-5. Clone your fork of the assignment by either using the command line or by clicking the green `Clone or download` button, then clicking `Open in Desktop`, which will launch the GitHub Desktop client.
-6. Choose `Where` you want to save the fork, then click `Clone`.
-7. Every student has her/his own branch, whose name is formatted as `YOUR-FIRSTNAME-YOUR-LASTNAME--YOUR-GITHUB-USERNAME`. Click `master` in the GitHub Desktop client, at the top, along the left, then choose your branch.
-8. Open the `mmp310-final-project-submission` folder you just cloned and place your final project folder inside it.
-9. Return to the `GitHub Desktop` client and commit your changes, perhaps saying something like, “Final project submission”.
-10. Sync/push your changes by clicking the `Sync` icon.
-11. Return to the GitHub web site.
-12. Locate your fork on the site; the URL should be `github.com/YOUR-GIHUB-USERNAME/mmp310-final-project-submission`. You should see your final project folder listed along with the commit message you made in step `9`. If you don’t, retrace your steps up to this point.
-13. Click the `New pull request` button along the left of the row containing the green `Clone or download` button.
-14. Along the left, the `base fork` should be `code-warrior/mmp310-final-project-submission`; the `base` branch should be `YOUR-FIRSTNAME-YOUR-LASTNAME--YOUR-GITHUB-USERNAME`. The `head fork` should be `YOUR-GITHUB-USERNAME/mmp310-final-project-submission`; the `compare` branch should be `YOUR-FIRSTNAME-YOUR-LASTNAME--YOUR-GITHUB-USERNAME`. Once you’ve verified this information, click the green `Create pull request` button.
-15. Take the default subject heading for the pull request message, then click the green `Create pull request` button.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/scrolling-nav/).
 
-### When to Submit
+## Creator
 
-This assignment is __due by 11:59 PM on Monday, 22 May 2017.__ **No late work will be accepted**, and this repository will be closed at 12:00 AM on Tuesday, 23 May 2017.
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/gh-pages/LICENSE) license.
