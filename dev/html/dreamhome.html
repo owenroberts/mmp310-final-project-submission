@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Your Dream Home!</title>
+   <link href= '../styles/css/main.css' rel= 'stylesheet'>
+   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet'>
+   <script src= '../scripts/username.js'></script>
+   <script src= '../scripts/dreamhome.js'></script>
+   <script src= '../scripts/homes.js'></script>
+</head>
+<body>
+   <div id='quizInfo'>
+      <h1 id='heading'>Dream Home Quiz.</h1>
+      <h3>Welcome <span id='entry'></span>
+         <span id='userName'>
+            <input type='text' id='userEntry' value='enter your name'>
+            <input type='submit' id='entryBtn' value='submit' onclick='addName();'>
+         </span>
+      <h3>
+      <h3>Follow the steps below to find out what your dream home really is.</h3>
+
+   </div>
+
+   <form id= 'quiz' name= 'quiz'>
+      <p>Pick a fruit.</p>
+      <input type='radio' id='mc' name='quest1' value='Apple'>Apple</br>
+      <input type='radio' id='mc' name='quest1' value='Orange'>Orange</br>
+
+      <p>Pick a musical genre.</p>
+      <input type='radio' id='mc' name='quest2' value='Rock'>Rock</br>
+      <input type='radio' id='mc' name='quest2' value='Hip-Hop'>Hip-Hop</br>
+
+      <p>Pick a type of weather.</p>
+      <input type='radio' id='mc' name='quest3' value='Sunny'>Sunny</br>
+      <input type='radio' id='mc' name='quest3' value='Rainy'>Rainy</br>
+
+      <input type='button' id='quizBtn' value='Finished!' onclick='check();changeColor();'>
+
+      <input type='button' id='resetBtn' value='Reset!' onclick='resetPg();'>
+
+      <input type='button' id='nextBtn' value='Check out another quiz!' onclick="location.href = './index.html'">
+   </form>
+
+   <div id='results'>
+      <p id='homeType'></p>
+      <img id='picture'>
+   </div>
+
+</body>
+
+</html>

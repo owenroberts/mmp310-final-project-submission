@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Your Personality!</title>
+   <link href= '../styles/css/main.css' rel= 'stylesheet'>
+   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet'>
+   <script src= '../scripts/main.js'></script>
+   <script src= '../scripts/username.js'></script>
+   <script src= '../scripts/types.js'></script>
+</head>
+<body>
+   <div id='quizInfo'>
+      <h1 id='heading'>Personality Quiz</h1>
+      <h3>Welcome <span id='entry'></span>
+         <span id='userName'>
+            <input type='text' id='userEntry' value='enter your name'>
+            <input type='submit' id='entryBtn' value='submit' onclick='addName();'>
+         </span>
+      <h3>
+      <h3>Follow the steps below to have your personality reviewed.</h3>
+
+   </div>
+
+   <form id= 'quiz' name= 'quiz'>
+      <p>Pick a season.</p>
+      <input type='radio' id='mc' name='quest1' value='Winter'>Winter</br>
+      <input type='radio' id='mc' name='quest1' value='Summer'>Summer</br>
+
+      <p>Pick an animal.</p>
+      <input type='radio' id='mc' name='quest2' value='Cats'>Cats</br>
+      <input type='radio' id='mc' name='quest2' value='Dogs'>Dogs</br>
+
+      <p>Pick a color.</p>
+      <input type='radio' id='mc' name='quest3' value='Blue'>Blue</br>
+      <input type='radio' id='mc' name='quest3' value='Yellow'>Yellow</br>
+
+      <input type='button' id='quizBtn' value='Finished!' onclick='check();changeColor();'>
+
+      <input type='button' id='resetBtn' value='Reset!' onclick='resetPg();'>
+
+      <input type='button' id='nextBtn' value='Check out another quiz!' onclick="location.href = './dreamhome.html'">
+   </form>
+
+   <div id='results'>
+      <p id='personType'></p>
+      <img id='picture'>
+   </div>
+
+</body>
+
+</html>
