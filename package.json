@@ -1,0 +1,27 @@
+{
+  "name": "mmp310-final",
+  "version": "1.0.0",
+  "description": "Follow every step of these instructions carefully, and avoid submitting this assignment in haste or with distractions around you, as these will no doubt hinder your ability to submit successfully.",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "jquery": "^3.2.1"
+  },
+    "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "del": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
